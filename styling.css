@@ -24,13 +24,13 @@ h6{
     position: relative;
 }
 
-a {
+.thumbnail {
     position: relative;
     opacity: 1;
     transition: opacity .5s, color .5s linear ease-out;
 }
 
-.centered{
+#text_overlay{
     position: absolute;
     top: 45%;
     left: 0;
@@ -39,12 +39,12 @@ a {
     transition: color .5s, color .5s linear ease-out;
 }
 
-a:hover img{
+.thumbnail:hover img{
     opacity: .2;
     color: black;
 }
 
-a:hover .centered{
+.thumbnail:hover #text_overlay{
     opacity: 1;
     color: black;
 }
